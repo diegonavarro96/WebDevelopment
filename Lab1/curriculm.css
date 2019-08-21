@@ -60,3 +60,14 @@ p{
   a:hover { 
     color: rgb(0, 47, 255);
   }
+  .button {
+    background-color:transparent;
+    border: none;
+    color:#B9A20B;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
