@@ -1,6 +1,6 @@
 
 $.ajax({
-    url :  'https://diegonavarro96.github.io/WebDevelopment/grammys/data/grammys.json',
+    url :  'https://diegonavarro96.github.io/WebDevelopment/Lab3/data/grammys.json',
     type: 'GET',
     dataType : 'json',
     success : function(data){
@@ -32,7 +32,7 @@ $.ajax({
 
 function loadGrammys(){
     $.ajax({
-        url :  'https://diegonavarro96.github.io/WebDevelopment/grammys/data/grammys.json',
+        url :  'https://diegonavarro96.github.io/WebDevelopment/Lab3/data/grammys.json',
         type: 'GET',
         dataType : 'json',
         success : function(data){
