@@ -2,6 +2,8 @@
 body {
   font-family: 'Rubik', sans-serif;
   font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.900);
+  color: #b69859
 }
 
 .container {
@@ -20,7 +22,7 @@ select {
   width: 300px;
   height: 40px;
   overflow: hidden;
-  background: url(new_arrow.png) no-repeat right #ddd;
+  /* 1em = 10px background: url(new_arrow.png) no-repeat right #ddd;*/
   border: 1px solid #ccc;
 }
 
@@ -30,7 +32,7 @@ option {
 }
 
 h2 {
-  color: #b69859;
+  color: green;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 3em;
@@ -41,26 +43,30 @@ h2 {
 }
 
 h3 {
-  color: #b69859;
+  color: green;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2em;
 }
 
 .winner {
-  color: #b69859;
+  color: green;
 }
 
 h4 {
  display: inline;
 }
 
-span {
+span.winnerColor {
   margin-left: 20px;
   font-style: italic;
   font-weight: bold;
+  color: rgb(138, 0, 85);
 }
 
 hr {
   margin-top: 30px;
+}
+li {
+  font-weight: bold;
 }
